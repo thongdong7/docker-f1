@@ -44,4 +44,6 @@ RUN pip install \
     warrant==0.2.0 \
     Werkzeug==0.11.11
 
+RUN apt-get update && apt-get install -qqy unzip
+
 #ENTRYPOINT ["bash", "/app/entrypoint.sh"]

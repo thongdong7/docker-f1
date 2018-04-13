@@ -44,4 +44,4 @@ RUN pip install \
     warrant==0.2.0 \
     Werkzeug==0.11.11
 
-ENTRYPOINT ["bash", "/app/entrypoint.sh"]
+#ENTRYPOINT ["bash", "/app/entrypoint.sh"]
